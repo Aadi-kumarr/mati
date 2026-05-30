@@ -1,0 +1,69 @@
+# Python Cache
+
+**pycache**/
+*.py[cod]
+
+# Virtual Environments
+
+venv/
+.venv/
+env/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Environment Variables
+
+.env
+
+# Logs
+
+*.log
+
+# Build Files
+
+build/
+dist/
+*.egg-info/
+
+# Model Artifacts
+
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Dataset Files
+
+data/raw/*.txt
+data/raw/*.csv
+data/processed/*.csv
+
+# Streamlit Secrets
+
+.streamlit/secrets.toml
+
+# Azure Credentials
+
+azure_credentials.json
+service_principal.json
+
+# Windows Files
+
+Thumbs.db
+Desktop.ini
+
+# Temporary Files
+
+*.tmp
+*.temp
